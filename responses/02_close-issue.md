@@ -1,8 +1,8 @@
-Take a look at your published site here: {{ url }}
+Echa un vistazo a tu página publicada aquí: {{ url }}
 
-As we add content throughout the course, this site will update.
+Según vayamos añadiendo contenido a lo largo del curso, el sitio se actualizará
 
-I've closed this issue and opened a pull request for you to work on headers in your portfolio.
+He cerrado este issue y abierto un pull request para que trabajes en los títulos de tu portafolio.
 
 <hr>
-<h3 align="center">Go to <a href="{{ prUrl }}">the pull request</a> now!</h3>
+<h3 align="center">¡Ve al <a href="{{ prUrl }}">pull request</a> ahora!</h3>

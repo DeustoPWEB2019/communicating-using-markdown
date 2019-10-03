@@ -1,16 +1,17 @@
-## Step 2: Turn on GitHub Pages
+## Paso 2: Activa GitHub Pages
 
-Nicely done @{{ user.username }}!
+¡Bien hecho, @{{ user.username }}!
 
-Now let's turn our focus to the content of your portfolio. Because this portfolio will display as a static web page, you'll need to enable GitHub Pages.
+Ahora vamos a centrarnos en el contenido de tu portafolio. Dado que este portafolio se va a mostrar como una página web estática, necesitas activar GitHub Pages.
 
-### :keyboard: Activity: Enable GitHub Pages
-1. Under your repository name, click [**Settings**]({{ repoUrl }}/settings).
-1. In the **GitHub Pages** section, use the **Select source** drop-down menu to select `master` as your GitHub Pages publishing source.
+### :keyboard: Actividad: Activa GitHub Pages
+1. Debajo del nombre de tu repositorio, haz clic en [**Settings**]({{ repoUrl }}/settings).
+1. En la sección **GitHub Pages**, utiliza el desplegable **Select source** para seleccionar `master` como la fuente para la publicación de GitHub Pages.
+1. Vuelve a este issue.
 
-> _I may take up to a minute to respond as I wait for GitHub Pages to create a deployment of your repository_.
+> _Puede llevarme hasta un minuto responder mientras espero a que GitHub Pages haga la implementación de tu repositorio. Si no ves nada pasado un minuto, refresca esta página._
 
-> _For more information, see [Configuring a publishing source for GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) in the GitHub Help._
+> _Para más información, consulta [Configuring a publishing source for GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/) en la ayuda de GitHub._
 
 <hr>
-<h3 align="center">Return to this issue for next steps.</h3>
+<h3 align="center">Vuelve a este issue para los siguientes pasos.</h3>

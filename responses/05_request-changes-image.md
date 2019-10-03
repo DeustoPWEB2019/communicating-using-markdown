@@ -4,7 +4,7 @@ Something doesn't look quite right with this image. Make sure:
 - Your image formatting is correct (`![alt-text](image-url)`)
 - The image has alt text
 
-### :keyboard: Activity: Add an image
+### :keyboard: Actividad: Añade una imagen
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, checkout to the branch in this pull request:
@@ -26,14 +26,14 @@ Something doesn't look quite right with this image. Make sure:
       git push
       ```
 {% else %}
-1. Click the "Files changed" tab.
+1. Haz clic en the "Files changed" tab.
 1. Scroll to find the `_includes/02-image.md`.
-1. Click the :pencil: pencil icon.
-1. Add an image using the syntax `![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)`.
+1. Haz clic en the :pencil: pencil icon.
+1. Añade una imagen using the syntax `![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)`.
 1. Scroll to the bottom and commit your changes to your branch.
 {% endif %}
 
 If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">Mira mi respuesta más abajo.</h3>

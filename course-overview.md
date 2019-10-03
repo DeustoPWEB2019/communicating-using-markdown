@@ -9,20 +9,20 @@ This course overview is here to help as a short walkthrough with a list of steps
 - [Part 1: Get Started with Markdown](#part-1-get-started-with-markdown)
 	- [What is markdown?](#what-is-markdown)
 	- [Task Lists](#task-lists)
-	- [:memo: Activity: Practice Markdown](#memo-activity-practice-markdown)
+	- [:memo: Actividad: Practice Markdown](#memo-activity-practice-markdown)
 - [Part 2: Turn on GitHub Pages](#part-2-turn-on-github-pages)
-	- [:memo: Activity: Enable GitHub Pages](#memo-activity-enable-github-pages)
+	- [:memo: Actividad: Enable GitHub Pages](#memo-activity-enable-github-pages)
 - [Part 3: Outline your portfolio with headers](#part-3-outline-your-portfolio-with-headers)
 	- [Headers](#headers)
-	- [:memo: Activity: Edit your file with Headers](#memo-activity-edit-your-file-with-headers)
-- [Part 4: Add an image](#part-4-add-an-image)
+	- [:memo: Actividad: Edit your file with Headers](#memo-activity-edit-your-file-with-headers)
+- [Part 4: Añade una imagen](#part-4-add-an-image)
 	- [Images](#images)
-	- [:memo: Activity: Adding an Image](#memo-activity-adding-an-image)
+	- [:memo: Actividad: Adding an Image](#memo-activity-adding-an-image)
 - [Part 5: Emojis and Lists](#part-5-emojis-and-lists)
-	- [:memo: Activity: Add a few details](#memo-activity-add-a-few-details)
+	- [:memo: Actividad: Add a few details](#memo-activity-add-a-few-details)
 - [Part 6: Fix broken markdown](#part-6-fix-broken-markdown)
 	- [Emphasis](#emphasis)
-	- [:memo: Activity: Fix the markdown](#memo-activity-fix-the-markdown)
+	- [:memo: Actividad: Fix the markdown](#memo-activity-fix-the-markdown)
 - [Congratulations!](#congratulations)
 	- [More Links in Markdown](#more-links-in-markdown)
 	- [Formatting Markdown](#formatting-markdown)
@@ -76,7 +76,7 @@ Watch out, because the syntax for task lists is very specific. Be sure to includ
 
 > _In the code block above, you can see how the text is typed originally. Then, you see how it will be formatted with Markdown. Keep an eye out for this pattern throughout the course. :eyes:_
 
-### :memo: Activity: Practice Markdown
+### :memo: Actividad: Practice Markdown
 1. Leave a comment to this issue. Use markdown to create a list of todo items:
 	- Turn on GitHub Pages
 	- Outline my portfolio
@@ -92,12 +92,12 @@ Nicely done! Your markdown to-do list looks great. :sparkles:
 
 Since this project is going to be a static web page, the first thing you'll need to do is turn on GitHub Pages. Here's how:
 
-### :memo: Activity: Enable GitHub Pages
+### :memo: Actividad: Enable GitHub Pages
 1. Under your repository name in this repository, click **Settings**.
       ![image of settings tab](https://help.github.com/assets/images/help/repository/repo-actions-settings.png)
 1. Use the Select source drop-down menu to select `master` as your GitHub Pages publishing source.
       ![image of selecting a source](https://help.github.com/assets/images/help/pages/select-master-branch-docs-folder-as-source.png)
-1. Click **Save**.
+1. Haz clic en **Save**.
       ![image of clicking save](https://help.github.com/assets/images/help/pages/click-save-next-to-master-branch-docs-folder-source-selection.png)
 
 > _You can find the full instructions and more information on GitHub Pages [here](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)._
@@ -126,7 +126,7 @@ In issues, pull requests, and comments, you can use the text formatting toolbar.
 
 But, the toolbar isn't available everywhere. As you edit your file, you'll need to type the `#` symbols by hand.
 
-### :memo: Activity: Edit your file with Headers
+### :memo: Actividad: Edit your file with Headers
 1. Create a branch in this repository.
 1. In the `README.md` file, add a `#` before the content on line 1 so it formats as a "header 1". Use the same concept to turn the other lines into headers, using 1 through 6 hash symbols.
       ![headers](https://help.github.com/assets/images/help/writing/headings-rendered.png)
@@ -139,7 +139,7 @@ But, the toolbar isn't available everywhere. As you edit your file, you'll need 
 
 > _Not sure how to create branches, make commits, or open pull requests? Try the [Introduction to GitHub]() course first._
 
-## Part 4: Add an image
+## Part 4: Añade una imagen
 
 Next, you're going to add an image. You can add an image of yourself, or of something else you'd like to feature. You'll also learn how to create alt-text for images, and how to create links.
 
@@ -152,7 +152,7 @@ If you want to embed images, this is how you do it. Don't forget to include desc
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-### :memo: Activity: Adding an Image
+### :memo: Actividad: Adding an Image
 1. Edit the file in the pull request you created in Part 3.
 2. Look for the text "add an image here" on line 3. Replace that text with the markdown to feature your image of choice. Don't forget to include alt-text!
 3. Commit your changes.
@@ -161,7 +161,7 @@ If you want to embed images, this is how you do it. Don't forget to include desc
 
 In this PR, you'll learn lists and emojis. You'll also list a few details in your resume!
 
-:point_down: _These are expandable dialogues! Click to open and see more information._
+:point_down: _These are expandable dialogues! Haz clic en to open and see more information._
 
 <details>
   <summary>Emoji</summary>
@@ -238,7 +238,7 @@ In this PR, you'll learn lists and emojis. You'll also list a few details in you
 I've started a list for you in the "accomplishments" section. Your next steps are to fill out that list, and add another one somewhere else.
 > _Not sure what to type? That's OK! Create a fictional resume based on your favorite movie or book character!_
 
-### :memo: Activity: Add a few details
+### :memo: Actividad: Add a few details
 1. Like before, edit the file in this pull request.
 1. Look for the incomplete list. Fill in the items so the list has actual content.
 1. Create another list somewhere in the resume. It could be ordered or unordered.
@@ -261,7 +261,7 @@ __This will also be bold__
 _You **can** combine them_
 ```
 
-### :memo: Activity: Fix the markdown
+### :memo: Actividad: Fix the markdown
 
 1. Create a pull request with `base: master` and `compare: fix-markdown`.
 1. Edit the file in this pull request.

@@ -1,8 +1,8 @@
-## Step 4: Merge your headers
+## Paso 4: Combina tus títulos
 
-I see you've added at least one header, @{{ user.username }}. You can continue working if you'd like, otherwise let's merge <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> this pull request and move on with the course.
+Veo que has añadido por lo menos un título, @{{ user.username }}. Puedes seguir trabajando si quieres, o si no simplemente combina <sup>[:book:](https://help.github.com/articles/github-glossary/#merge)</sup> este pull request y continúa con el resto del curso.
 
-### :keyboard: Activity: Merge the Pull Request
+### :keyboard: Actividad: Combina el pull request
 
 {% if preferences.gitTool == 'cli' %}
 1. Check out to the `master` branch:
@@ -22,8 +22,8 @@ I see you've added at least one header, @{{ user.username }}. You can continue w
     git branch -d add-headers
     ```
 {% else %}
-1. Click **Merge pull request** below.
+1. Haz clic en **Merge pull request** más abajo.
 {% endif %}
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">Mira mi respuesta más abajo.</h3>

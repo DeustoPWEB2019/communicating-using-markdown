@@ -1,27 +1,28 @@
 ---
-name: Bug Report
-about: Is something not working as expected? Please help us improve!
+name: Informe de errores
+about: ¿Algo no está funcionando como esperabas? ¡Ayúdanos a mejorar!
 title: ''
 labels: 'bug'
 ---
 
-## Bug Report
+## Informe de errores
 
-**Current behavior**
-A clear and concise description of what the bug is (with screenshots).
+**Comportamiento actual**
+Una descripción clara y concisa de en qué consiste el error (con capturas de pantalla).
 
-**Reproduction**
-Steps to reproduce the behavior in the course:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Reproducción**
+Pasos para reproducir el comportamiento durante el curso:
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+1. Ir a '...'
+2. Haz clic en '....'
+3. Haz scoll hasta '....'
+4. Ver el error
 
-**Possible solution**
-If you have suggestions, we'd love to hear them. If not, that's ok too.
+**Comportamiento esperado**
+Una descripción clara y concisa de lo que esperabas que ocurriera.
 
-**Additional context**
-Add any other context about the problem here. If applicable, add screenshots to help explain.
+**Posible solución**
+Si tienes una sugerencia, nos encantaría oírla. Si no, está bien también.
+
+**Contexto adicional**
+Añade cualquier otra información de contexto del problema aquí. Si es aplicable, añade capturas de pantalla para ayudar a explicarlo.

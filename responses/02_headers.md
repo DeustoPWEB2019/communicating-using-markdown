@@ -1,65 +1,65 @@
-## Step 3: Add headers
+## Paso 3: Añade títulos
 
-As you saw on your website, your portfolio doesn't have much content yet. We'll learn how to edit the file in this pull request to incorporate some Markdown headers.
+Como has visto en tu sitio web, tu portafolio no tiene demasiado contenido todavía. Vamos a aprender cómo editar el archivo en este pull request para incorporar algunos títulos con Markdown.
 
-You can see an example of a header at the top of this page! Just like in HTML, a header is a larger bit of text at the beginning of a section. There are six sizes.
+Puedes ver un ejemplo de título en la parte superior de esta página. Exactamente igual que en HTML, un título es una porción de texto más grande al principio de cada sección. Hay seis tamaños.
 
-#### Example
+#### Ejemplo
 
 ```
-# This is an <h1> header, which is the largest
-## This is an <h2> header
-###### This is an <h6> header, which is the smallest
+# Esto es un título <h1>, que es el más grande
+## Esto es un título <h2> 
+###### Esto es un título <h6>, que es el más pequeño
 ```
 
-#### How it looks
+#### Cómo se ve
 
-# This is an `<h1>` header, which is the largest
-## This is an `<h2>` header
-###### This is an `<h6>` header, which is the smallest
+# Esto es un título <h1>, que es el más grande
+## Esto es un título <h2> 
+###### Esto es un título <h6>, que es el más pequeño
 
-In issues, pull requests, and comments, you can use the text formatting toolbar.
+En issues, pull requests y comentarios, puedes usar la barra de formateo de texto.
 
-The toolbar isn't available everywhere. When you edit a file, you must type the `#` symbols manually.
+La barra no está disponible en todas partes. Cuando editas un archivo, tienes que teclear los símbolos `#` manualmente.
 
-### :keyboard: Activity: Edit your file with headers
+### :keyboard: Actividad: Edita tu archivo con títulos
 
 {% if preferences.gitTool == 'cli' %}
-1. Open your preferred command line interface, which we'll call your shell from now on.
-1. Clone this repository:
+1. Abre tu interfaz de línea de comandos, al que a partir de ahora llamaremos tu terminal.
+1. Clona este repositorio:
       ```shell
       git clone {{ thePayload.repository.clone_url }}
       ```
-1. Navigate to the repository in your shell:
+1. Navega hasta el repositorio en tu terminal:
       ```shell
       cd {{ thePayload.repository.name }}
       ```
-1. Checkout to the branch in this pull request:
+1. Cámbiate al branch de este pull request:
       ```shell
       git checkout add-headers
       ```
-1. In your text editor of choice, open the file called `01-name.md`, in the `_includes` directory. On the first line, replace the text with your name, and add a `#` before the content to make it an H1 Header.
-1. Save your file. Every time you make changes, it's a good idea to type `git status`. You should type this after you stage files, and after you commit. It's always a good idea!
-1. Stage your file:
+1. En tu editor de textos, abre el archivo llamado `01-name.md`, en el directorio `_includes`. En la primera línea, reemplaza el texto con tu nombre, y añade un `#` antes del contenido para convertirlo en un título H1.
+1. Guarda tu archivo. Cada vez que hagas cambios, es una buena idea teclear `git status`. Deberías teclear esto después de añadir los archivos, y también después de hacer commit. ¡Siempre es una buena idea!
+1. Añade tus archivos:
       ```shell
       git add _includes/01-name.md
       ```
-1. Commit the change and add a commit message:
+1. Haz commit de los cambios y añade un mensaje de commit:
       ```shell
-      git commit -m "<YOUR MESSAGE>"
+      git commit -m "<TU MENSAJE>"
       ```
-1. Push your new commit to GitHub:
+1. Haz push de tu nuevo commit a GitHub:
       ```shell
       git push
       ```
 {% else %}
-1. In this pull request, click the **Files changed** tab.
-1. In the upper right corner of the file view, click the **small pencil** ✏️ icon for the file titled `_includes/01-name.md`.
-1. On the **Edit file** tab, add a `#` before the content to make it an H1 Header. You can add more headers, using one to six `#` characters.
-1. Above your new content, click **Preview changes**.
-1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
-1. Click **Commit changes**.
+1. En este pull request, haz clic en la pestaña **Files changed**.
+1. En la esquina superior derecha de la vista del archivo, haz clic en el icono del **pequeño lápiz** ✏️ del archivo llamado `_includes/01-name.md`.
+1. En la pestaña **Edit file**, añade un `#` antes del contenido para convertirlo en un título h1. Puedes añadir más títulos, utilizando entre uno y seis caracteres `#`.
+1. Encima del nuevo contenido, haz clic en **Preview changes**.
+1. En la parte inferior de la página, escribe un mensaje de commit corto y significativo que describa el cambio que has realizado en el archivo.
+1. Haz clic en **Commit changes**.
 {% endif %}
 
 <hr>
-<h3 align="center">Watch below for my response.</h3>
+<h3 align="center">Busca mi respuesta más abajo.</h3>

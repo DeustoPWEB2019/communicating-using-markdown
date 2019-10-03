@@ -1,8 +1,8 @@
-## Step 10: Merge lists and emphasis
+## Paso 10: Combina listas y énfasis
 
 Nice list, @{{ user.username }}! You can merge this pull request when you're ready.
 
-### :keyboard: Activity: Merge the Pull Request
+### :keyboard: Actividad: Merge the Pull Request
 
 {% if preferences.gitTool == 'cli' %}
 1. Check out to the `master` branch:
@@ -22,8 +22,8 @@ Nice list, @{{ user.username }}! You can merge this pull request when you're rea
     git branch -d add-lists-emphasis
     ```
 {% else %}
-1. Click **Merge pull request** below.
+1. Haz clic en **Merge pull request** below.
 {% endif %}
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">Mira mi respuesta más abajo.</h3>

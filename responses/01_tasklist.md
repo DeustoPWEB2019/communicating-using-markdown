@@ -1,12 +1,12 @@
-I didn't see a task list in that comment. Remember, a task list starts with the syntax `- [ ] ` and then the task list item. The formatting is specific! Try again with a new comment. You can copy this one if you would like to see how they look:
+No veo una lista de tareas en ese comentario. Recuerda, una lista de tareas empieza con la sintaxis `- [ ] ` y entonces el contenido de la tarea. El formateo es muy específico. Inténtalo otra vez con un nuevo comentario. Puedes copiar este de aquí si quieres ver cómo queda:
 
 ```
-- [ ] Turn on GitHub Pages
-- [ ] Outline my portfolio
-- [ ] Introduce myself to the world
+- [ ] Activar GitHub Pages
+- [ ] Hacer un boceto de mi portafolio
+- [ ] Presentarme al mundo
 ```
 
-If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+<!-- If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past. -->
 
 <hr>
-<h3 align="center">Watch below your comment for my response</h3>
+<h3 align="center">Mira mi respuesta debajo de tu comentario</h3>

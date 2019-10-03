@@ -1,18 +1,18 @@
-title: "Communicating using Markdown"
-tagline: "Your guide to mastering Markdown"
-description: "This course will walk you through everything you need to start organizing ideas and collaborating using Markdown, a lightweight language for text formatting."
+title: "Communicar usando Markdown"
+tagline: "Tu guía para dominar Markdown"
+description: "Este curso te guiará a través de todo lo que necesitas para empezar a organizar ideas y colaborar utilizando Markdown, un lenguaje ligero para el formateo del texto."
 template:
-  name: "markdown-portfolio"
-  repo: "communicating-using-md-template"
+  name: "portafolio-markdown"
+  repo: "comunicar-usando-md-template"
 preferences:
   - type: radio
     name: gitTool
-    label: Preferred Git tool
-    description: You can follow this course's instructions using whichever Git tool you prefer.
+    label: Herramienta Git preferida
+    description: Puedes seguir las instrucciones de este curso utilizando la herramienta Git que prefieras.
     options:
       - label: GitHub.com
         value: dotcom
-      - label: Command line
+      - label: Línea de comandos
         value: cli
 tags: [
   "GitHub","Markdown"
@@ -24,14 +24,14 @@ before:
     required_pull_request_reviews:
       include_admins: true
   - type: createIssue
-    title: Getting Started with GitHub
+    title: Primeros pasos con GitHub
     body: "00_welcome.md"
     comments:
       - "00_create-tasklist.md"
 steps:
   #1 - Create a task list
-  - title: "Create a task list"
-    description: "Learn about task lists in your first issue."
+  - title: "Crear una lista de tareas"
+    description: "Aprende a crear listas de tareas en tu primer issue."
     event: "issue_comment.created"
     link: '{{ repoUrl }}/issues/1'
     actions:
@@ -53,8 +53,8 @@ steps:
         with: '01_turn-on-ghp.md'
 
   #2 - Turn on GitHub Pages
-  - title: "Turn on GitHub Pages"
-    description: "Create serve your repository contents on a web page using GitHub Pages."
+  - title: "Activa GitHub Pages"
+    description: "Presenta los contenidos de tu repositorio en un sitio web usando GitHub Pages."
     event: page_build
     link: '{{ repoUrl }}/settings'
     actions:
@@ -65,28 +65,28 @@ steps:
         action_id: pagesUrl
       - type: createPullRequest
         action_id: pr
-        title: Give your portfolio a header
+        title: Titula tu portafolio
         body: '02_headers.md'
         head: add-headers
         data:
           thePayload: '%payload%'
       - type: closeIssue
-        issue: Getting Started with GitHub
+        issue: Primeros pasos con GitHub
       - type: octokit
         method: repos.getPages
         owner: '%payload.repository.owner.login%'
         repo: '%payload.repository.name%'
         action_id: pagesUrl
       - type: respond
-        issue: Getting Started with GitHub
+        issue: Primeros pasos con GitHub
         with: '02_close-issue.md'
         data:
           url: '%actions.pagesUrl.data.html_url%'
           prUrl: '%actions.pr.data.html_url%'
 
   #3 - Add headers
-  - title: "Add headers"
-    description: "Add headers to some unformatted content."
+  - title: "Añade títulos"
+    description: "Añade títulos al contenido sin formatear."
     event: "pull_request.synchronize"
     link: '{{ repoUrl }}/pull/2'
     actions:
@@ -105,8 +105,8 @@ steps:
         with: 03_pr-succeeds.md
 
   #4 - Merge your headers
-  - title: "Merge your headers"
-    description: "Merge your first PR to see headers in action."
+  - title: "Combina tus títulos"
+    description: "Combina tu primer pull request (PR) para ver los títulos en acción."
     event: "pull_request.closed"
     link: '{{ repoUrl }}/pull/2'
     actions:
@@ -115,7 +115,7 @@ steps:
       - type: updateBranchProtection
       - type: createPullRequest
         action_id: pr
-        title: Introduce yourself to the world
+        title: Preséntate al mundo
         body: 04_add-image.md
         head: add-images-links
       - type: octokit
@@ -129,9 +129,9 @@ steps:
           url: '%actions.pagesUrl.data.html_url%'
           prUrl: '%actions.pr.data.html_url%'
 
-  #5 - Add an image
-  - title: "Add an image"
-    description: "Learn how to place images in Markdown by adding your photo."
+  #5 - Añade una imagen
+  - title: "Añade una imagen"
+    description: "Aprende a colocar imágenes en Markdown añadiendo tu foto."
     event: "pull_request.synchronize"
     link: '{{ repoUrl }}/pull/3'
     actions:
@@ -148,9 +148,9 @@ steps:
       - type: respond
         with: 05_image-works-url.md
 
-  #6 - Add a profile link
-  - title: "Add a profile link"
-    description: "Learn how to create links in Markdown."
+  #6 - Añade un enlace de perfil
+  - title: "Añade un enlace de perfil"
+    description: "Aprende cómo crear enlaces con Markdown."
     event: "pull_request.synchronize"
     link: '{{ repoUrl }}/pull/3'
     actions:
@@ -168,9 +168,9 @@ steps:
       - type: respond
         with: 06_success.md
 
-    #7 - Merge your image and link
-  - title: "Merge your image and link"
-    description: "Merge your second PR to introduce yourself to the world."
+    #7 - Combina tu imagen y enlace
+  - title: "Combina tu imagen y enlace"
+    description: "Combina tu segundo PR para presentarte al mundo."
     event: "pull_request.closed"
     link: '{{ repoUrl }}/pull/3'
     actions:
@@ -178,7 +178,7 @@ steps:
         left: '%payload.pull_request.merged%'
       - type: updateBranchProtection
       - type: createPullRequest
-        title: A few of your favorite things
+        title: Algunas de tus cosas favoritas
         body: 07_pr-body.md
         action_id: pr
         head: add-lists-emphasis
@@ -193,9 +193,9 @@ steps:
           url: '%actions.pagesUrl.data.html_url%'
           prUrl: '%actions.pr.data.html_url%'
 
-  #8 - Add a list
-  - title: "Add a list"
-    description: "Learn to how to create ordered and unordered lists."
+  #8 - Añade una lista
+  - title: "Añade una lista"
+    description: "Aprende cómo crear listas ordenadas y sin ordenar."
     event: "pull_request.synchronize"
     link: '{{ repoUrl }}/pull/4'
     actions:
@@ -212,9 +212,9 @@ steps:
       - type: respond
         with: 08_emphasis.md
 
-  #9 - Use emphasis
-  - title: "Use emphasis"
-    description: "Use bold and italics to emphasize text."
+  #9 - Utiliza énfasis
+  - title: "Utiliza énfasis"
+    description: "Utiliza negritas y cursivas para enfatizar el texto."
     event: "pull_request.synchronize"
     link: '{{ repoUrl }}/pull/4'
     actions:
@@ -233,15 +233,15 @@ steps:
         with: 09_success.md
 
   #10 - Merge lists and  emphasis
-  - title: "Merge lists and emphasis"
-    description: "Merge the last updates to your portfolio."
+  - title: "Combina listas y énfasis"
+    description: "Combina las últimas actualizaciones a tu portafolio."
     event: "pull_request.closed"
     link: '{{ repoUrl }}/pull/4'
     actions:
       - type: gate
         left: '%payload.pull_request.merged%'
       - type: createIssue
-        title: More to learn
+        title: Más para aprender
         body: 10_more-to-learn.md
         action_id: issue
       - type: mergeBranch

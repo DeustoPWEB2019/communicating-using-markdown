@@ -1,6 +1,6 @@
-You've made a change to this file, but I don't see a header yet. Add another commit with a header. You can continue to make commits on a branch even after you open a pull request.
+Has hecho un cambio a este archivo, pero no veo un título todavía. Añade otro commit con algún título. Puedes continuar haciendo commits en un branch incluso después de haber creado el pull request.
 
-### :keyboard: Activity: Add a header
+### :keyboard: Actividad: Añade un título
 
 {% if preferences.gitTool == 'cli' %}
 1. Open your preferred command line interface, which we'll call your shell from now on.
@@ -31,14 +31,15 @@ You've made a change to this file, but I don't see a header yet. Add another com
       git push
       ```
 {% else %}
-1. Click the "Files changed" tab.
-1. Scroll to find the `_includes/01-name.md`.
-1. Click the :pencil: pencil icon.
-1. Add a header by including a `#` hash followed by a space.
-1. Scroll to the bottom and commit your changes to your branch.
+1. Haz clic en la pestaña "Files changed".
+1. Haz scroll para buscar el archivo `_includes/01-name.md`.
+1. Haz clic en el icono del lápiz :pencil:.
+1. Añade un título incluyendo un `#` seguido por un espacio.
+1. Haz scroll hasta la parte de abajo y haz commit de tus cambios a tu branch.
 {% endif %}
 
-If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+
+<!-- If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past. -->
 
 <hr>
-<h3 align="center">Watch below for my response!</h3>
+<h3 align="center">Mira mi respuesta más abajo.</h3>
