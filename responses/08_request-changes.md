@@ -1,10 +1,10 @@
-Uh oh, we're not finding a list.
+Uh oh, no encontramos ninguna lista.
 
-Remember the format for a list looks like this:
+Recuerda que el formato de una lista debe tener este aspecto:
 
 `- item`
 
-It is important to put a space between the `-` or `*` and the list item text.
+Es importante que pongas un espacio entre el `-` o `*` y el texto del elemento de lista.
 
 ### :keyboard: Actividad: Añade una lista
 
@@ -28,14 +28,16 @@ It is important to put a space between the `-` or `*` and the list item text.
       git push
       ```
 {% else %}
-1. Haz clic en the "Files changed" tab.
-1. Scroll to find the `_includes/04-lists.md`.
-1. Haz clic en the :pencil: pencil icon.
-1. Añade una lista using either `-` or `*` to indicate the bullets.
-1. Scroll to the bottom and commit your changes to your branch.
+1. Haz clic en la pestaña "Files changed".
+1. Haz scroll para buscar el archivo `_includes/04-lists.md`.
+1. Haz clic en el icono del lápiz :pencil:.
+1. Añade una lista usando `-` o `*` para señalar las viñetas de la lista.
+1. Haz scroll hasta la parte de abajo y haz commit de tus cambios a tu branch.
 {% endif %}
 
-If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+
+
+<!-- If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past. -->
 
 <hr>
 <h3 align="center">Mira mi respuesta más abajo.</h3>

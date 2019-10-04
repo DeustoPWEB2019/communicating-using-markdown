@@ -1,8 +1,8 @@
 ## Paso 10: Combina listas y énfasis
 
-Nice list, @{{ user.username }}! You can merge this pull request when you're ready.
+¡Bonita lista, @{{ user.username }}! Puedes combinar este pull request cuando hayas terminadp.
 
-### :keyboard: Actividad: Merge the Pull Request
+### :keyboard: Actividad: Combina el pull request
 
 {% if preferences.gitTool == 'cli' %}
 1. Check out to the `master` branch:
@@ -22,7 +22,7 @@ Nice list, @{{ user.username }}! You can merge this pull request when you're rea
     git branch -d add-lists-emphasis
     ```
 {% else %}
-1. Haz clic en **Merge pull request** below.
+1. Haz clic en **Merge pull request** más abajo.
 {% endif %}
 
 <hr>

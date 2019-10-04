@@ -1,7 +1,7 @@
-Something doesn't look quite right with this link. Make sure:
+Algo no está bien con ese enlace. Asegúrate de que:
 
-- The placeholder text is deleted
-- Your link formatting is correct (`[text](url)`)
+- Has eliminado el texto de relleno
+- El formato de tu enlace es correcto (`[texto](url)`)
 
 ### :keyboard: Actividad: Add a link
 
@@ -29,14 +29,16 @@ Something doesn't look quite right with this link. Make sure:
       git push
       ```
 {% else %}
-1. Haz clic en the "Files changed" tab.
-1. Scroll to find the `_includes/03-link.md`.
-1. Haz clic en the :pencil: pencil icon.
-1. Add a link using the syntax `[text](https://example.com)`.
-1. Scroll to the bottom and commit your changes to your branch.
+1. Haz clic en la pestaña "Files changed".
+1. Haz scroll para buscar el archivo `_includes/03-link.md`.
+1. Haz clic en el icono del lápiz :pencil:.
+1. Añade un enlace usando la sintaxis `[texto](https://ejemplo.com)`.
+1. Haz scroll hasta la parte de abajo y haz commit de tus cambios a tu branch.
 {% endif %}
 
-If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+
+
+<!-- If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past. -->
 
 <hr>
 <h3 align="center">Mira mi respuesta más abajo.</h3>

@@ -1,18 +1,18 @@
-# Communicating with Markdown
+# Comunicar usando Markdown
 
-This document contains the course flow for the "Communicating with Markdown" course.
+Este documento contiene el flujo para el curso "Comunicar usando Markdown".
 
-In this course, you'll learn:
-- Markdown, including
-  - headers
-  - lists
-  - images
-  - links
-  - more!
-- Where to use Markdown
+En este curso aprenderás:
+- Markdown, incluyendo
+  - títulos
+  - listas
+  - imágenes
+  - enlaces
+  - ¡y más!
+- Dónde usar Markdown
   - issues
   - pull requests
-  - `.md` files
+  - archivos `.md`
 
 ### User Registration
 - Before registration, a description of the class and the recommended prerequisites will be available.
@@ -30,7 +30,7 @@ In this course, you'll learn:
 | Add's image in PR #3 | Validate via status check and/or PR review, comments (04-image-works-url.md) or (04-request-changes.md) |
 | Comment with URL to their GH Pages site | Comments (04-success.md) |
 | Merges PR #4 | Comments (04-next.md), opens PR #5 (title: Adding a few details, body-contents: 05-pr-body.md, pr-contents: Starting a list under one of the headers) |
-| Comments in PR #4 with list of emoji (at least 2, any type of list) | Comments (05-edit-pr.md) |
+| Comments in PR #4 with list of emoticonos (at least 2, any type of list) | Comments (05-edit-pr.md) |
 | Edits PR with lists | Validate via status check and/or PR review, comments (05-success.md) or (05-request-changes.md) |
 | Merge PR #5 | Comments (05-next.md), opens PR #6 (title: Fix broken markdown, body-contents: 06-fix-markdown.md, pr-contents: adding markdown in new sections that is broken) |
 | Fix the markdown | Validate via status check and/or PR review, comments (06-success.md) or (06-request-changes.md) |

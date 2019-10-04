@@ -1,8 +1,8 @@
-Good job with images and links! See your work here: {{ url }}
+¡Buen trabajo con las imágenes y los enlaces! Mira el resultado: {{ url }}
 
-### :keyboard: Actividad: Delete the branch
+### :keyboard: Actividad: Borra tu branch
 
-1. Borra tu branch in this pull request.
+1. Borra tu branch en este pull request.
 
 <hr>
-<h3 align="center">Go to <a href="{{ prUrl }}">the next activity</a> now!</h3>
+<h3 align="center">¡Adelante con la <a href="{{ prUrl }}">siguiente actividad</a>!</h3>

@@ -1,34 +1,34 @@
-## Nice work
+## Buen trabajo
 
-Congratulations @{{ user.username }}, you've completed this course!
+Enhorabuena @{{ user.username }}, ¡has completado este curso!
 
-![congratulations](https://octodex.github.com/images/welcometocat.png)
+![enhorabuena](https://octodex.github.com/images/welcometocat.png)
 
-## What went well
+## Lo que ha ido bien
 
-During this course you successfully:
+Durante este curso has conseguido:
 
-- Added a checklist to an issue comment
-- Enabled GitHub Pages on your repository
-- Committed changes to your webpage by:
-    - Adding headers to the `01-name.md` file
-    - Including an image in the `02-image.md` file
-    - Creating links to other websites in the `03-links.md` file
-    - Adding your accomplishments to the `04-lists.md` file
-    - Using emphasis like **bold** and _italics_ in the `05-emphasis.md` file
+- Añadir una lista de comprobación a un comentario en un issue
+- Activar GitHub Pages en tu repositorio
+- Hacer commit de los cambios a tu sitio web:
+  + Añadir títulos al archivo `01-name.md`
+  + Incluir una imagen en el archivo `02-image.md`
+  + Crear enlaces a otros sitios web en el archivo `03-links.md`
+  + Añadir tus logros al archivo `04-lists.md`
+  + Utilizar énfasis como **negritas** y _cursivas_ en el archivo `05-emphasis.md`
 
-## What's next?
+## ¿Y ahora qué?
 
-Now that you have mastered the basics of Markdown @{{ user.username }}, here's some quick information about some of the other cool features we didn't cover.
+Ahora que ya dominas los elementos básicos de Markdown, @{{ user.username }}, aquí tienes información sobre algunas de las funciones molonas que no hemos visto.
 
-### More Links in Markdown
+### Más enlaces en Markdown
 
 <details>
-<summary>Username and Team @mentions</summary>
+<summary>@Menciones de usuarios y grupos</summary>
 
-  ### Username and Team @mentions
+  ### @Menciones de usuarios y grupos
 
-  Typing an `@` symbol, followed by a GitHub username, will send a notification to that person about the comment. This is called an “@mention”, because you’re mentioning the individual. You can also `@mention` teams within an organization. For more information, see “[Receiving notifications about activity on GitHub](https://help.github.com/categories/receiving-notifications-about-activity-on-github/) in the *GitHub Help*.
+  Escribir el símbolo `@` seguido de un nombre de usuario de GitHub enviará una notificación a ese usuario sobre el comentario publicado. Esto se llama una "@mención", porque estás mencionando a una persona. También puedes `@mencionar` grupos dentro de una organización. Para más información, consulta “[Receiving notifications about activity on GitHub](https://help.github.com/categories/receiving-notifications-about-activity-on-github/) en la *Ayuda de GitHub*.
 
   ```
   @githubteacher
@@ -40,60 +40,61 @@ Now that you have mastered the basics of Markdown @{{ user.username }}, here's s
 </details>
 
 <details>
-  <summary>Cross Links</summary>
+  <summary>Enlaces cruzados</summary>
 
-  ### Cross Links
+  ### Enlaces cruzados
 
-  To bring up a list of suggested issues and pull requests within a repository, type `#`. Type the issue or pull request number or title to filter the list, and then press either Tab or Enter to complete the highlighted result.
+  Para obtener una lista de issues y pull requests sugeridos en un repositorio, escribe `#`. Escribe el número o el título del issue o pull request para filtrar la lista, y después presiona el Tabulador o Enter para completar el resultado resaltado.
 
-  Additionally, references to issues and pull requests are automatically converted to shortened links to the issue or pull request. For example,
+  Además, las referencias a issues y pull requests se convierten automáticamente en enlaces acortados al issue o pull request. Por ejemplo,
 
-  | Reference type | Raw reference | Short link |
-  | -------------- | ------------- | ---------- |
-  | Issue or pull request URL | `https://github.com/desktop/desktop/pull/3602` | [#3602](https://github.com/desktop/desktop/pull/3602) |
-  | `#` and issue or pull request number | #3602 | [#3602](https://github.com/desktop/desktop/pull/3602) |
-  | `GH-` and issue or pull request number | GH-3602 | [GH-3602](https://github.com/desktop/desktop/pull/3602) |
-  | `Username/Repository#` and issue or pull request number | desktop/desktop#3602 | [desktop/desktop#3602](https://github.com/desktop/desktop/pull/3602) |
 
-  For more information, see “[Autolinked references and URLs](https://help.github.com/articles/autolinked-references-and-urls/)” in the *GitHub Help*.
+  | Tipo de referencia  | Referencia en bruto | Enlace corto |
+  | ------------------- | ------------------- | ------------ |
+  | URL de issue o pull request | `https://github.com/desktop/desktop/pull/3602` | [#3602](https://github.com/desktop/desktop/pull/3602) |
+  | `#` con número de issue o pull request | #3602 | [#3602](https://github.com/desktop/desktop/pull/3602) |
+  | `GH-` con número de issue o pull request | GH-3602 | [GH-3602](https://github.com/desktop/desktop/pull/3602) |
+  | `Usuario/Repositorio#` con número de issue o pull request | desktop/desktop#3602 | [desktop/desktop#3602](https://github.com/desktop/desktop/pull/3602) |
+
+  Para más información, consulta “[Autolinked references and URLs](https://help.github.com/articles/autolinked-references-and-urls/)” en la *Ayuda de GitHub*.
 
   <hr>
 </details>
 
 <details>
-  <summary>Linking Specific Commits</summary>
+  <summary>Enlazando a commits específicos</summary>
 
-  ### Linking Specific Commits
+  ### Enlazando a commits específicos
 
-  References to a commit's ID (commonly called a SHA or hash) are automatically converted into shortened links to the commit on GitHub. For example,
+  Las referencias a los IDs de los commits (a las que normalmente se llama SHA o _hash_) se convierte automáticamente en enlaces cortos al commit en GitHub. Por ejemplo,
 
-  | Reference type | Raw reference | Short link |
-  | -------------- | ------------- | ---------- |
-  | Commit URL | https://github.com/desktop/desktop/commit/8304e9c271a5e5ab4fda797304cd7bcca7158c87 | [8304e9c](https://github.com/desktop/desktop/commit/8304e9c271a5e5ab4fda797304cd7bcca7158c87) |
+  | Tipo de referencia  | Referencia en bruto | Enlace corto |
+  | ------------------- | ------------------- | ------------ |
+  | URL de un commit | https://github.com/desktop/desktop/commit/8304e9c271a5e5ab4fda797304cd7bcca7158c87 | [8304e9c](https://github.com/desktop/desktop/commit/8304e9c271a5e5ab4fda797304cd7bcca7158c87) |
   | SHA | 8304e9c271a5e5ab4fda797304cd7bcca7158c87 | [8304e9c](https://github.com/desktop/desktop/commit/8304e9c271a5e5ab4fda797304cd7bcca7158c87) |
-  | User@SHA | desktop@8304e9c271a5e5ab4fda797304cd7bcca7158c87 | [desktop@8304e9c](https://github.com/desktop/desktop/commit/8304e9c271a5e5ab4fda797304cd7bcca7158c87) |
-  | Username/Repository@SHA | User/Repository@SHA: desktop/desktop@8304e9c271a5e5ab4fda797304cd7bcca7158c87 | [desktop/desktop@8304e9c](https://github.com/desktop/desktop/commit/8304e9c271a5e5ab4fda797304cd7bcca7158c87)|
+  | Usuario@SHA | desktop@8304e9c271a5e5ab4fda797304cd7bcca7158c87 | [desktop@8304e9c](https://github.com/desktop/desktop/commit/8304e9c271a5e5ab4fda797304cd7bcca7158c87) |
+  | Usuario/Repositorio@SHA | Usuario/Repositorio@SHA: desktop/desktop@8304e9c271a5e5ab4fda797304cd7bcca7158c87 | [desktop/desktop@8304e9c](https://github.com/desktop/desktop/commit/8304e9c271a5e5ab4fda797304cd7bcca7158c87)|
 
 
   <hr>
 </details>
 
-### Formatting Markdown
+### Formato Markdown
 
 <details>
-  <summary>Quotes</summary>
+  <summary>Citas</summary>
 
-  ### Quotes
+  ### Citas
 
-  You can create quote text with a `>`.
+  Puedes añadir un texto citado usando `>`.
 
   ```
-  In the words of Abraham Lincoln:
+  En palabras de Abraham Lincoln:
 
   > Pardon my French
   ```
 
-  In the words of Abraham Lincoln:
+  En palabras de Abraham Lincoln:
 
   > Pardon my French
 
@@ -101,104 +102,105 @@ Now that you have mastered the basics of Markdown @{{ user.username }}, here's s
 </details>
 
 <details>
-  <summary>Tables</summary>
+  <summary>Tablas</summary>
 
-   ### Tables
+  ### Tablas
 
-   You can create tables by assembling a list of words and dividing them with hyphens `-` (for the first row), and then separating each column with a pipe `|`:
+  Puedes crear tablas reuniendo una serie de palabras divididas mediante `-` (para la primera fila), y separando cada columna con una barra vertical `|`:
 
     ```
-    First Header | Second Header
-    ------------ | -------------
-    Content from cell 1 | Content from cell 2
-    Content in the first column | Content in the second column
+    Primer encabezado | Segundo encabezado
+    ----------------- | ------------------
+    Contenido de la celda 1 | Contenido de la celda 2
+    Contenido de la 1ra columna | Contenido de la 2nda columna
     ```
 
-  First Header | Second Header
-  ------------ | -------------
-  Content from cell 1 | Content from cell 2
-  Content in the first column | Content in the second column
+  Primer encabezado | Segundo encabezado
+  ----------------- | ------------------
+  Contenido de la celda 1 | Contenido de la celda 2
+  Contenido de la 1ra columna | Contenido de la 2nda columna
 
-  For more detail on formatting with tables, see "Organizing information with tables" in the _GitHub Help_.
+  Para más información sobre el formateo de tablas, consulta "Organizing information with tables" en la _Ayuda de GitHub_.
 
 <hr>
 </details>
 
 <details>
-  <summary>Inline Code Blocks</summary>
+  <summary>Código en línea</summary>
 
-  ### Inline Code Blocks
+  ### Código en línea
 
-  Certain words and phrases need to be formatted in monospace fonts, especially when writing about code. As you've seen throughout this lab, words can be distinguished in markdown with `inline code blocks`.
+  Algunas palabras y frases necesitan formatearse en fuentes monoespaciadas, especialmente cuando escribimos acerca de código. Como has visto a lo largo de este curso, las palabras pueden distinguirse en markdown como `código en línea`.
 
-  Inline code is just one ``` character on either side of the text, and can be used within paragraphs, headers, or other Markdown.
+  El código en línea se señala con un único caráter ``` a cada lado del texto, y puede usarse dentro de párrafos, títulos u otros elementos de Markdown.
 
   ```
-  `inline code is just one backtick`
+  `el código en línea utiliza solo una tilde invertida`
   ```
 
-  `inline code is just one backtick`
+  `el código en línea utiliza solo una tilde invertida`
 
   <hr>
 </details>
 
 <details>
-  <summary>Separate Code Blocks</summary>
+  <summary>Bloques de código</summary>
 
-  ### Separate Code Blocks
+  ### Bloques de código
 
-  To separate out a larger block of code, use three ``` characters instead of one, and set the text aside in its own paragraph.
+  Para separar un bloque de texto más largo, utiliza tres caracteres ``` en lugar de uno, y coloca el texto aparte en su propio párrafo.
 
-  What we type:
+  Lo que escribimos:
   
     ```
-    Anything written in this **paragraph** will not be _formatted_ even if it would normally be recognized in this setting. :taco:
+    Cualquier cosa que escribamos en este **párrafo** no se _formateará_ incluso aunque normalmente sería reconocido en este contexto. :taco:
     ```
     
-  What we see:
+  Lo que vemos:
   
   ```
-  Anything written in this **paragraph** will not be _formatted_ even if it would normally be recognized in this setting. :taco:
-   ```
+  Cualquier cosa que escribamos en este **párrafo** no se _formateará_ incluso aunque normalmente sería reconocido en este contexto. :taco:
+  ```
 <hr>
 </details>
 
 <details>
-  <summary>Syntax Highlighting</summary>
+  <summary>Resaltado de sintaxis</summary>
 
-  ### Syntax Highlighting
+  ### Resaltado de sintaxis
 
-  In addition to code blocks, some code blocks should be rendered differently depending on the language, such as Javascript or command-line text.
+  Además de indicar el código en bloques, algunos bloques de código deberían colorearse diferente según el lenguaje de programación, como Javacsript o textos para la línea de comandos.
 
-  What we type:
+  Lo que escribimos:
 
       ```sh
-      github-learning-lab ~/Projects/recipe-repository
+      github-learning-lab ~/Proyectos/repositorio-de-recetas
       $ git init
-      Initialized empty Git repository in /Users/github-learning-lab/Projects/recipe-repository/.git/
+      Initialized empty Git repository in /Users/github-learning-lab/Proyectos/repositorio-de-recetas/.git/
       ```
 
-  What we see:
+  Lo que vemos:
+
   ```sh
-  github-learning-lab ~/Projects/recipe-repository
+  github-learning-lab ~/Proyectos/repositorio-de-recetas
   $ git init
-  Initialized empty Git repository in /Users/github-learning-lab/Projects/recipe-repository/.git/
+  Initialized empty Git repository in /Users/github-learning-lab/Proyectos/repositorio-de-recetas/.git/
   ```
   <hr>
 </details>
 
 <details>
-  <summary>Summary dropdown</summary>
+  <summary>Desplegables de resumen</summary>
 
-  ### Summary dropdown
+  ### Desplegables de resumen
 
-  Most of the text in this issue is formatted in collapsible summary blocks. Here's how to make them with Markdown:
+  La mayoría del texto en este issue está formateado en bloques expandibles. Así es como se hacen con Markdown:
 
   ```
   <details>
-    <summary>Title</summary>
+    <summary>Título</summary>
 
-    Content here
+    Aquí el contenido
 
   </details>
   ```
@@ -206,7 +208,7 @@ Now that you have mastered the basics of Markdown @{{ user.username }}, here's s
   <hr>
 </details>
 
-Want to keep learning? Feel free to [check out our other courses]({{ host }}/courses).
+¿Quieres aprender más? No dejes de [consultar otros cursos]({{ host }}/courses).
 
 <hr>
-<h3 align="center">I won't respond to this issue, just close it when you are done!</h3>
+<h3 align="center">No responderé a este issue, simplemente ciérralo cuando hayas acabado.</h3>

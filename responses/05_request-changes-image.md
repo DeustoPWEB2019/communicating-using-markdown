@@ -1,8 +1,8 @@
-Something doesn't look quite right with this image. Make sure:
+Algo no está bien con esa imagen. Asegúrate de que:
 
-- The placeholder text is deleted
-- Your image formatting is correct (`![alt-text](image-url)`)
-- The image has alt text
+- Has eliminado el texto de relleno
+- El formato de tu imagen es correcto (`![alt-text](image-url)`)
+- La imagen tiene un texto alternativo
 
 ### :keyboard: Actividad: Añade una imagen
 
@@ -26,14 +26,16 @@ Something doesn't look quite right with this image. Make sure:
       git push
       ```
 {% else %}
-1. Haz clic en the "Files changed" tab.
-1. Scroll to find the `_includes/02-image.md`.
-1. Haz clic en the :pencil: pencil icon.
-1. Añade una imagen using the syntax `![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)`.
-1. Scroll to the bottom and commit your changes to your branch.
+1. Haz clic en la pestaña "Files changed".
+1. Haz scroll para buscar el archivo `_includes/02-image.md`.
+1. Haz clic en el icono del lápiz :pencil:.
+1. Añade una imagen usando la sintaxis `![Imagen del Yaktocat](https://octodex.github.com/images/yaktocat.png)`.
+1. Haz scroll hasta la parte de abajo y haz commit de tus cambios a tu branch.
 {% endif %}
 
-If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past.
+
+
+<!-- If you would like assistance troubleshooting, create a post on the [GitHub Community]({{ communityBoard }}) board. You might also want to search for your issue to see if other people have resolved it in the past. -->
 
 <hr>
 <h3 align="center">Mira mi respuesta más abajo.</h3>

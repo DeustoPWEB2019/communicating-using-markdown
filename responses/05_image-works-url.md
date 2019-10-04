@@ -1,14 +1,14 @@
 ## Paso 6: Añade un enlace de perfil
 
-Your image looks great! Next, you'll want to add links to your awesome portfolio projects. Links help create context when you’re communicating in issues and pull requests.
+¡Tu imagen se ve genial! Ahora querrás añadir links a tus fascinantes proyectos del portafolio. Los enlaces ayudan a crear contexto cuando te comunicas en issues y pull requests.
 
-You might link to a [website](https://github.com/), a [repository](https://github.com/github/training-kit), or even a [line of code](https://github.com/github/training-kit/blob/master/resources/learning-path/index.html#L32). To create a link, put the text you want to display in square brackets, and the URL in the following parentheses.
+Puedes enlazar a un [sitio web](https://github.com/), un [repositorio](https://github.com/github/training-kit) o incluso una [línea de código](https://github.com/github/training-kit/blob/master/resources/learning-path/index.html#L32). Para crear el enlace, escribe el texto que quieres que se vea entre corchetes y seguido la URL entre paréntesis. 
 
 ```
 [GitHub](http://github.com)
 ```
 
-## :keyboard: Actividad: Add a link
+## :keyboard: Actividad: Añade un enlace
 
 {% if preferences.gitTool == 'cli' %}
 1. In your shell, verify that you are currently checked out to the branch `add-images-links`:
@@ -34,8 +34,8 @@ You might link to a [website](https://github.com/), a [repository](https://githu
       git push
       ```
 {% else %}
-1. Edit the file `_includes/03-links.md`.
-1. Replace the filler text with a link to your GitHub profile (or anywhere else).
+1. Edita el archivo `_includes/03-links.md`.
+1. Sustituye el texto de relleno con un enlace a tu perfil de GitHub (o cualquier otro sitio).
 {% endif %}
 
 <hr>
