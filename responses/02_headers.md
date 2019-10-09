@@ -14,9 +14,9 @@ Puedes ver un ejemplo de título en la parte superior de esta página. Exactamen
 
 #### Cómo se ve
 
-# Esto es un título <h1>, que es el más grande
-## Esto es un título <h2> 
-###### Esto es un título <h6>, que es el más pequeño
+# Esto es un título &lt;h1&gt;, que es el más grande
+## Esto es un título &lt;h2&gt; 
+###### Esto es un título &lt;h6&gt;, que es el más pequeño
 
 En issues, pull requests y comentarios, puedes usar la barra de formateo de texto.
 
